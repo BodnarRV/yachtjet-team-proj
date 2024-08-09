@@ -30,49 +30,49 @@ body {
 }
 
 .section-title {
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 1.75;
-    letter-spacing: -0.02em;
-    color: #1B414B;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.75;
+  letter-spacing: -0.02em;
+  color: #1b414b;
 }
 
 /* Usage - class="section-title white" */
 .section-title.white {
-    color: #FBFBFB;
+  color: #fbfbfb;
 }
 
 /* Tablet */
 @media (min-width: 768px) {
-    .container {
-        padding: 0 32px;
-    }
+  .container {
+    padding: 0 32px;
+  }
 
-    .main-btn {
-        font-size: 18px;
-        line-height: 1.2375;
-        padding: 16px 40px;
-    }
+  .main-btn {
+    font-size: 18px;
+    line-height: 1.2375;
+    padding: 16px 40px;
+  }
 
-    .section-title {
-        font-size: 48px;
-        line-height: 1;
-        letter-spacing: -0.02em;
-    }
+  .section-title {
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
 }
 
 /* Desktop */
 @media (min-width: 1280px) {
-    .container {
-        padding: 0 50px;
-    }
+  .container {
+    padding: 0 50px;
+  }
 }
 
 /* Desktop large */
 @media (min-width: 1440px) {
-    .container {
-        max-width: 1340px;
-        margin: 0 auto;
-        padding: 0;
-    }
+  .container {
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0;
+  }
 }

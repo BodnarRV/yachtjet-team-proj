@@ -1,0 +1,155 @@
+.forma {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.section-forma {
+  padding-bottom: 80px;
+}
+
+.yacht-photo {
+  border-radius: 24px;
+}
+
+.forma-wrapper {
+  /* display: flex;
+  flex-wrap: wrap; */
+  /* margin-left: 30px; */
+}
+
+.forma-text {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 40px;
+}
+
+.forma-yacht {
+  margin-bottom: 80px;
+}
+
+.input-wrapper {
+  margin-bottom: 18px;
+}
+.form-imput {
+  background-color: transparent;
+  color: #fbfbfb;
+  padding-left: 18px;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 12px;
+  letter-spacing: 0.04em;
+  width: 100%;
+  height: 42px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+}
+
+.form-imput:focus,
+.form-text:focus,
+.form-imput:focus::placeholder,
+.form-text:focus::placeholder {
+  border-color: #fbfbfb;
+  color: #fbfbfb;
+}
+
+.form-comment {
+  margin-bottom: 40px;
+}
+.form-label {
+}
+.form-comment-text {
+  padding: 14px 18px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  color: #fbfbfb;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 12px;
+  resize: none;
+  width: 100%;
+  height: 108px;
+  background-color: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-button {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  background-color: #1b414b;
+  border-radius: 15px;
+
+  min-width: 122px;
+  height: 46px;
+  border: none;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-button:hover,
+.form-button:focus {
+  background-color: #fbfbfb;
+  color: #1b414b;
+}
+
+@media screen and (min-width: 768px) {
+  .forma {
+    display: flex;
+    align-items: center;
+  }
+
+  .forma-text {
+    font-size: 28px;
+  }
+
+  .form-imput {
+    width: 472px;
+    height: 54px;
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .form-comment-text {
+    width: 472px;
+    height: 116px;
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .form-comment {
+    margin-bottom: 50px;
+  }
+
+  .forma-yacht {
+    margin-bottom: 100px;
+  }
+
+  .form-button {
+    min-width: 194px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .forma {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .forma-yacht {
+    margin-left: 50px;
+    margin-bottom: 0;
+  }
+
+  .forma-text {
+    margin-left: 50px;
+  }
+}

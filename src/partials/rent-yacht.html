@@ -1,1 +1,77 @@
-Rent yacht
+<section class="section-forma" id="rent-section">
+  <div class="container forma">
+    <img
+      src="/img/Rent_a_yacht.jpg"
+      alt="yacht"
+      srcset=""
+      class="yacht-photo"
+      width="768"
+      height="536"
+    />
+
+    <div class="forma-wrapper">
+      <h2 class="forma-text">Rent a yacht now</h2>
+      <form class="forma-yacht" name="user_info" autocomplete="off">
+        <div class="forma-field">
+          <label for="user-name">
+            <div class="input-wrapper">
+              <input
+                type="text"
+                id="user-name"
+                type="text"
+                name="user-name"
+                placeholder="Full Name"
+                pattern="[A-Za-z0-9]{6,}"
+                class="form-imput"
+              />
+            </div>
+          </label>
+        </div>
+
+        <div class="forma-container">
+          <label for="input-email">
+            <div class="input-wrapper">
+              <input
+                type="text"
+                id="input-email"
+                name="input-email"
+                type="email"
+                placeholder="Email"
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                class="form-imput"
+              />
+            </div>
+          </label>
+        </div>
+
+        <div class="forma-container">
+          <label for="input-phone">
+            <div class="input-wrapper">
+              <input
+                type="text"
+                id="input-phone"
+                name="input-phone"
+                type="tel"
+                placeholder="Phone number"
+                pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+                class="form-imput"
+              />
+            </div>
+
+            <div class="form-comment">
+              <label class="form-label" for="user-comment"></label>
+              <textarea
+                class="form-comment-text"
+                name="user-comment"
+                id="user-comment"
+                placeholder="Comment"
+              ></textarea>
+            </div>
+          </label>
+        </div>
+
+        <button class="form-button" type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+</section>
