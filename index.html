@@ -23,7 +23,7 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/yachtjet-team-proj/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/yachtjet-team-proj/assets/index-00adc8eb.css">
+    <link rel="stylesheet" href="/yachtjet-team-proj/assets/index-af39525d.css">
   </head>
   <body>
     HEADER
@@ -195,7 +195,85 @@
 </section>
 
       Advantages
-      Rent yacht
+      <section class="section-form">
+  <div class="container form">
+    <picture>
+      <source
+        srcset="/yachtjet-team-proj/assets/Rent_a_yacht-mobile-6aaebf9a.jpg 1x, /yachtjet-team-proj/assets/Rent_a_yacht-mobile-2x-74552057.jpg 2x"
+        media="(max-width: 767px)"
+      />
+      <source
+        srcset="
+          ../img/Rent_a_yacht-medium.jpg   1x,
+          ../img/Rent_a_yacht-2-medium.jpg 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          ../img/Rent_a_yacht-desktop.png    1x,
+          ../img/Rent_a_yacht-2x-desktop.png 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <img
+        src="/yachtjet-team-proj/assets/Rent_a_yacht-desktop-d360255c.jpg"
+        alt="yacht"
+        class="yacht-photo"
+        width="768"
+      />
+    </picture>
+
+    <div class="form-wrapper">
+      <h2 class="form-text" id="rent-section">Rent a yacht now</h2>
+
+      <form class="form-yacht" name="user_info">
+        <label class="form-yacht" for="user-name">
+          <input
+            type="text"
+            id="user-name"
+            name="user-name"
+            placeholder="Full Name"
+            pattern="[A-Za-z0-9]{6,}"
+            class="form-imput"
+          />
+        </label>
+        <label class="form-yacht" for="input-email">
+          <input
+            type="text"
+            id="input-email"
+            name="input-email"
+            type="email"
+            placeholder="Email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            class="form-imput"
+          />
+        </label>
+        <label for="input-phone">
+          <input
+            type="text"
+            id="input-phone"
+            name="input-phone"
+            type="tel"
+            placeholder="Phone number"
+            pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+            class="form-imput"
+          />
+        </label>
+        <label for="user-comment">
+          <textarea
+            class="form-comment-text"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Comment"
+          ></textarea>
+        </label>
+
+        <button class="form-button" type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+</section>
 
       Reviews
 
