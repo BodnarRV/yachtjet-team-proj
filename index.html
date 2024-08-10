@@ -21,7 +21,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
     <script type="module" crossorigin src="/yachtjet-team-proj/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/yachtjet-team-proj/assets/index-0a1bc730.css">
+    <link rel="stylesheet" href="/yachtjet-team-proj/assets/index-594bb5c9.css">
   </head>
   <body>
     HEADER
@@ -39,13 +39,33 @@
     <ul class="yachts-cards-list">
       <li class="yachts-card">
         <div class="yachts-card-img-container">
-          <img
-            class="yachts-card-img"
-            srcset="/img/img-yaht-1.jpg 1x, /img/img-yaht-1-2x.jpg 2x"
-            src="/img/img-yaht-1.jpg"
-            width="360"
-            alt="Luxary yacht Arrow"
-          />
+          <picture>
+            <source
+              srcset="/yachtjet-team-proj/assets/img-yaht-1-large-c0c37e87.jpg 1x, /yachtjet-team-proj/assets/img-yaht-1-large-2x-f82cb7e3.jpg 2x"
+              media="(min-width: 1440px)" />
+            <source
+              srcset="
+                /img/img-yaht-1-desktop.jpg    1x,
+                /img/img-yaht-1-2x-desktop.jpg 2x
+              "
+              media="(min-width: 1280px)" />
+            <source
+              srcset="
+                /img/img-yaht-1-medium.jpg    1x,
+                /img/img-yaht-1-2x-medium.jpg 2x
+              "
+              media="(min-width: 768px)" />
+            <source
+              srcset="
+                /img/img-yaht-1-mobile.jpg    1x,
+                /img/img-yaht-1-mobile-2x.jpg 2x
+              "
+              media="(max-width: 767px)" />
+            <img
+              class="yachts-card-img"
+              src="/img/img-yaht-1-mobile.jpg"
+              alt="Luxary yacht Arrow"
+          /></picture>
         </div>
         <div class="yachts-card-title">
           <p class="yachts-card-name">Arrow</p>
@@ -76,13 +96,27 @@
       </li>
       <li class="yachts-card">
         <div class="yachts-card-img-container">
-          <img
-            class="yachts-card-img"
-            srcset="/img/img-yaht-2.jpg 1x, /img/img-yaht-2-2x.jpg 2x"
-            src="/img/img-yaht-2.jpg"
-            width="360"
-            alt="Luxary yacht Bennety"
-          />
+          <picture>
+            <source
+              srcset="/yachtjet-team-proj/assets/img-yaht-2-large-f9de6172.jpg 1x, /yachtjet-team-proj/assets/img-yaht-2-large-2x-f6cd2af6.jpg 2x"
+              media="(min-width: 1440px)" />
+            <source
+              srcset="
+                /img/img-yaht-2x-desktop.jpg   1x,
+                /img/img-yaht-2-2x-desktop.jpg 2x
+              "
+              media="(min-width: 1280px)" />
+            <source
+              srcset="
+                /img/img-yaht-2-medium.jpg  1x,
+                /img/img-yaht-2x-medium.jpg 2x
+              "
+              media="(max-width: 1279px)" />
+            <img
+              class="yachts-card-img"
+              src="/img/img-yaht-2-medium.jpg"
+              alt="Luxary yacht Bennety"
+          /></picture>
         </div>
         <div class="yachts-card-title">
           <p class="yachts-card-name">BENETTI OASIS 40M B...</p>
@@ -113,13 +147,18 @@
       </li>
       <li class="yachts-card">
         <div class="yachts-card-img-container">
-          <img
-            srcset="/img/img-yaht-3.jpg 1x, /img/img-yaht-3-2x.jpg 2x"
-            src="/img/img-yaht-3.jpg"
-            class="yachts-card-img"
-            width="360"
-            alt="Luxary yacht Belle Anna"
-          />
+          <picture>
+            <source
+              srcset="/yachtjet-team-proj/assets/img-yaht-3-large-11ae9559.jpg 1x, /yachtjet-team-proj/assets/img-yaht-3-large-2x-3e796f98.jpg 2x"
+              media="(min-width: 1440px)" />
+            <source
+              srcset="/yachtjet-team-proj/assets/img-yaht-3-desktop-a202fb90.jpg 1x, /yachtjet-team-proj/assets/img-yaht-3-2x-desktop-8759c4a2.jpg 2x"
+              media="(max-width: 1439px)" />
+            <img
+              class="yachts-card-img"
+              src="/img/img-yaht-3-medium.jpg"
+              alt="Luxary yacht Belle Anna"
+          /></picture>
         </div>
         <div class="yachts-card-title">
           <p class="yachts-card-name">BELLE ANNA</p>
