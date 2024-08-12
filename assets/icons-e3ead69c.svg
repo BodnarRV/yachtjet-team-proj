@@ -1,7 +1,7 @@
 <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <symbol id="icon-burger" viewBox="0 0 24 24">
-      <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2.143" d="M3 15h18M3 9h18"/>
+      <path d="M3.5 17.5H24.5M3.5 10.5H24.5" stroke="#1B414B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
     </symbol>
     <symbol id="icon-youtube" viewBox="0 0 24 24">
       <path d="m13.67 11.826-2.34-1.092c-.204-.095-.372.011-.372.237v2.056c0 .226.168.332.372.237l2.339-1.092c.205-.096.205-.252.001-.348zM12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 14.062c-5.119 0-5.208-.462-5.208-4.062S6.882 7.938 12 7.938c5.119 0 5.208.461 5.208 4.062s-.09 4.062-5.208 4.062z"/>
