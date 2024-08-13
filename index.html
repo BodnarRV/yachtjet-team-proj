@@ -23,24 +23,18 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/yachtjet-team-proj/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/yachtjet-team-proj/assets/index-c6841788.css">
+    <link rel="stylesheet" href="/yachtjet-team-proj/assets/index-8f67de6e.css">
   </head>
   <body>
     <header class="header">
   <div class="header-container container">
     <nav class="header-navigation">
       <a href="./index.html" class="header-logo"> yachtjet </a>
-      <div class="header-button">
-        <button type="button" class="header-btn">
-          <a href="#about" class="text-btn"> About </a>
-        </button>
-        <button type="button" class="header-btn">
-          <a href="#yachts" class="text-btn"> Yachts </a>
-        </button>
-        <button type="button" class="header-btn">
-          <a href="#reviews" class="text-btn"> Reviews </a>
-        </button>
-      </div>
+      <ul class="header-button">
+        <li><a href="#about" class="header-btn"> About </a></li>
+        <li><a href="#yachts" class="header-btn"> Yachts </a></li>
+        <li><a href="#reviews" class="header-btn"> Reviews </a></li>
+      </ul>
       <ul class="header-soc-list">
         <li class="header-soc-item">
           <a href="" class="header-soc-link">
@@ -65,7 +59,7 @@
         </li>
       </ul>
     </nav>
-    <button type="button" class="heder-open-btn">
+    <button type="button" class="heder-open-btn" id="openMenuButton">
       <svg class="heder-icon" width="28" height="28">
         <use href="/yachtjet-team-proj/assets/icons-e3ead69c.svg#icon-burger" />
       </svg>
@@ -90,7 +84,7 @@
   </div>
 </section>
 
-      <section class="about-section">
+      <section class="about-section" id="about">
   <div class="container">
     <div class="description">
       <div class="left">
@@ -136,7 +130,7 @@
   </div>
 </section>
 
-      <section class="our-yachts">
+      <section class="our-yachts" id="yachts">
   <div class="container yachts">
     <h2 class="section-title white our-yachts-title">
       Choose your dream yacht and sail away into the sunset
@@ -285,6 +279,7 @@
 </section>
 
       <section class="advantages">
+  <h2 class="visually-hidden">Advantages</h2>
   <div class="container">
     <div class="advantages-container">
       <div class="advantages-list-container">
@@ -406,7 +401,7 @@
   </div>
 </section>
 
-      <section class="section-review">
+      <section class="section-review" id="reviews">
   <div class="container container-review">
     <h2 class="section-title white section-title-additional">
       YachtJet take pride in providing the best possible service and experience
